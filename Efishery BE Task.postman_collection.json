@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "92e35489-86cf-4fad-bb79-1fd2bc9efe0b",
+		"name": "Efishery BE Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FetchApp: Fetch Claim Token",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwaG9uZSI6IjA4MSIsInJvbGUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAzLTMwIDEyOjQ0OjMyLjE4NDExOCArMDcwMCArMDcwMCIsImV4cCI6MTY4MDI0NTQ3Nn0.3mwsyZ4FhRK6ZqaNZE4dlUDK5CcbD-lYPNFoBSRxWrM",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/token",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchApp: Fetch Claim Token Unauthorized",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwaG9uZSI6IjA4MSIsInJvbGUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAzLTMwIDEyOjQ0OjMyLjE4NDExOCArMDcwMCArMDcwMCIsImV4cCI6MTY4MDI0NTQ3Nn0.3mwsyZ4FhRK6ZqaNZE4dlUDK5CcbD-lYPNFoBSRxWrM",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/token",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchApp: Fetch Resource Role Admin",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwaG9uZSI6IjA4MSIsInJvbGUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAzLTMwIDEyOjQ0OjMyLjE4NDExOCArMDcwMCArMDcwMCIsImV4cCI6MTY4MDI0NTQ3Nn0.3mwsyZ4FhRK6ZqaNZE4dlUDK5CcbD-lYPNFoBSRxWrM",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/role-admin",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"role-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchApp: Fetch Resource Role Admin Unauthorized",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwaG9uZSI6IjA4MSIsInJvbGUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAzLTMwIDEyOjQ0OjMyLjE4NDExOCArMDcwMCArMDcwMCIsImV4cCI6MTY4MDI0NTQ3Nn0.3mwsyZ4FhRK6ZqaNZE4dlUDK5CcbD-lYPNFoBSRxWrM",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/role-admin",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"role-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchApp: Fetch Resource Role Non Admin",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwaG9uZSI6IjA4MSIsInJvbGUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAzLTMwIDEyOjQ0OjMyLjE4NDExOCArMDcwMCArMDcwMCIsImV4cCI6MTY4MDI0NTQ3Nn0.3mwsyZ4FhRK6ZqaNZE4dlUDK5CcbD-lYPNFoBSRxWrM"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/role-non-admin",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"role-non-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchApp: Fetch Resource Role Non Admin Unauthorized",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwaG9uZSI6IjA4MSIsInJvbGUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIzLTAzLTMwIDEyOjQ0OjMyLjE4NDExOCArMDcwMCArMDcwMCIsImV4cCI6MTY4MDI0NTQ3Nn0.3mwsyZ4FhRK6ZqaNZE4dlUDK5CcbD-lYPNFoBSRxWrM"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/role-non-admin",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"role-non-admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthApp: Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"admin3\",\n    \"phone\": \"083\",\n    \"role\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/public/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"public",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthApp: Register User Already Exist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"admin3\",\n    \"phone\": \"083\",\n    \"role\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/public/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"public",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthApp: Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"083\",\n    \"password\": \"TLLK\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/public/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthApp: Login Invalid Credentials",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"083\",\n    \"password\": \"TLLU\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/public/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthApp: Claim Token",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4zIiwicGhvbmUiOiIwODMiLCJyb2xlIjoiIiwiY3JlYXRlZF9hdCI6IjIwMjMtMDMtMjggMTE6MTQ6NDguNDQ2OTExICswNzAwICswNzAwIiwiZXhwIjoxNjgwMDYzMjk2fQ.zeIR6ZzcJvRDRvW5RscHOubebhcH15UTrOrv-yU0aOg",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/public/jwt-check",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"public",
+						"jwt-check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FetchApp: Fetch Resource Without Credentials",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/fetch/without-jwt",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fetch",
+						"without-jwt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
