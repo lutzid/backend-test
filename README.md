@@ -30,13 +30,15 @@ Run Fetch App
 node app.js
 ```
 ## C4 Diagram
+![](images/Deployment Diagram.png)
+![](images/Context Diagram.png)
 
 ## Goals
 [x] 1. Servers bisa dinyalakan di port berbeda
 [x] 2. Semua endpoint berfungsi dengan semestinya (3 endpoint auth, 3 endpoint fetch)
 [x] 3. Wajib dokumentasi endpoint dengan format OpenAPI/swagger (API.yaml / API.md), atau postman/insomnia collection
-[] 4. Dokumentasi system diagram-nya dalam format C4 Model (Context dan Deployment)
+[x] 4. Dokumentasi system diagram-nya dalam format C4 Model (Context dan Deployment)
 [x] 5. Pergunakan satu repo git untuk semua apps (mono repo)
 [] 6. Dockerfile untuk masing-masing app dan wajib menggunakan docker-compose
-[] 7. Petunjuk penggunaan dan instalasi di README.md yang memudahkan
-[] 8. kirim video demo / cara penggunaan
+[x] 7. Petunjuk penggunaan dan instalasi di README.md yang memudahkan
+[x] 8. kirim video demo / cara penggunaan
