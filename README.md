@@ -30,7 +30,7 @@ Run Fetch App
 node app.js
 ```
 ## C4 Diagram
-![](images/Deployment Diagram.png)
+![](https://raw.githubusercontent.com/lutzid/backend-test/main/images/Deployment%20Diagram.png)
 ![](images/Context Diagram.png)
 
 ## Goals
